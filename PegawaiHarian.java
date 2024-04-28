@@ -33,7 +33,7 @@ public class PegawaiHarian extends Pegawai {
     }
 
     public String toString() {
-        return String.format("Pegawai Harian\t: %s\nUpah per Jam\t: Rp%,.0f\nTotal Jam\t: %d\nPendapatan\t: Rp%,.0f\n",
+        return String.format("Pegawai Harian\t: %s\nUpah/Jam\t: Rp%,.0f\nTotal Jam Kerja\t: %d\nPendapatan\t: Rp%,.0f\n",
                 super.toString(), getUpahPerJam(), getTotalJam(), gaji());
     }
 
